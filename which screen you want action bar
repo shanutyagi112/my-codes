@@ -1,0 +1,15 @@
+////If you want to get full screen without actionBar and Title.///
+
+////Add it in style.xml/////
+
+<style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+      <item name="windowActionBar">false</item>
+      <item name="windowNoTitle">true</item>
+      <item name="android:windowFullscreen">true</item>
+</style>
+
+////and use the style at activity of manifest.xml.////
+
+<activity ....
+      android:theme="@style/AppTheme.NoActionBar" > ......
+</activity> 
